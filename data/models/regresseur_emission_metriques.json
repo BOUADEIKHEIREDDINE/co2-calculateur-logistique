@@ -1,0 +1,10 @@
+{
+  "n_apprentissage": 21445,
+  "n_test": 7149,
+  "r2_log": 0.870384546185532,
+  "erreur_absolue_mediane_pct": 16.826738292359902,
+  "erreur_absolue_mediane_pct_naif": 55.728750830742904,
+  "mae_g": 199.19742274498992,
+  "couverture_intervalle_80": 0.7938173171072878,
+  "marge_conformale_log": 0.04335155059176983
+}

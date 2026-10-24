@@ -1,0 +1,196 @@
+{
+  "etapes": [
+    [
+      "1-2. Ingestion et découverte",
+      6.6
+    ],
+    [
+      "3. Structuration et nettoyage",
+      2.4
+    ],
+    [
+      "4. Enrichissement",
+      29.6
+    ],
+    [
+      "5. Mapping, feature engineering et modèles",
+      25.9
+    ],
+    [
+      "6. Validation",
+      0.6
+    ],
+    [
+      "7. Publication",
+      24.0
+    ],
+    [
+      "8. Figures",
+      0.8
+    ]
+  ],
+  "metriques_modeles": {
+    "Mode des colis internationaux (porte d'entrée non flashée)": {
+      "n_apprentissage": 5505,
+      "n_test": 1836,
+      "precision_modele": 0.9852941176470589,
+      "precision_regle_pays": 0.8741830065359477
+    },
+    "Véhicule d'une étape sans transporteur": {
+      "n_apprentissage": 148412,
+      "n_test": 37104,
+      "precision_modele": 0.7065275981026304,
+      "precision_regle_frequence": 0.6972833117723156
+    },
+    "Émission d'un colis à partir de la commande": {
+      "n_apprentissage": 21445,
+      "n_test": 7149,
+      "r2_log": 0.870384546185532,
+      "erreur_absolue_mediane_pct": 16.826738292359902,
+      "erreur_absolue_mediane_pct_naif": 55.728750830742904,
+      "mae_g": 199.19742274498992,
+      "couverture_intervalle_80": 0.7938173171072878,
+      "marge_conformale_log": 0.04335155059176983
+    }
+  },
+  "evaluation": {
+    "emission_reconstituee": {
+      "erreur_mediane_pct": 2.2,
+      "erreur_p90_pct": 15.9,
+      "biais_total_pct": 0.5,
+      "part_a_moins_de_20pct": 92.2
+    },
+    "emission_ml": {
+      "erreur_mediane_pct": 15.9,
+      "erreur_p90_pct": 64.4,
+      "biais_total_pct": 4.86,
+      "part_a_moins_de_20pct": 56.6
+    },
+    "distance": {
+      "erreur_mediane_pct": 0.4,
+      "erreur_p90_pct": 3.1,
+      "biais_total_pct": -0.36,
+      "part_a_moins_de_20pct": 99.0
+    },
+    "erreur_par_observation": [
+      {
+        "part_observee": "< 50 %",
+        "colis": 15302,
+        "erreur_reconstituee_pct": 4.3,
+        "erreur_ml_pct": 18.3
+      },
+      {
+        "part_observee": "50-75 %",
+        "colis": 18187,
+        "erreur_reconstituee_pct": 2.6,
+        "erreur_ml_pct": 16.7
+      },
+      {
+        "part_observee": "75-99 %",
+        "colis": 8811,
+        "erreur_reconstituee_pct": 1.6,
+        "erreur_ml_pct": 11.9
+      },
+      {
+        "part_observee": "100 %",
+        "colis": 17700,
+        "erreur_reconstituee_pct": 1.1,
+        "erreur_ml_pct": 14.9
+      }
+    ],
+    "erreur_par_service": [
+      {
+        "service": "ecologique",
+        "erreur_mediane_pct": 4.6,
+        "erreur_p90_pct": 44.0,
+        "biais_total_pct": -0.84,
+        "part_a_moins_de_20pct": 79.5
+      },
+      {
+        "service": "express",
+        "erreur_mediane_pct": 1.8,
+        "erreur_p90_pct": 12.1,
+        "biais_total_pct": 0.27,
+        "part_a_moins_de_20pct": 95.0
+      },
+      {
+        "service": "international",
+        "erreur_mediane_pct": 0.3,
+        "erreur_p90_pct": 8.6,
+        "biais_total_pct": 0.74,
+        "part_a_moins_de_20pct": 95.2
+      },
+      {
+        "service": "standard",
+        "erreur_mediane_pct": 2.7,
+        "erreur_p90_pct": 13.8,
+        "biais_total_pct": -0.97,
+        "part_a_moins_de_20pct": 93.9
+      }
+    ],
+    "vehicules_predits": {
+      "etapes_comparables": 55567,
+      "precision_pct": 76.0
+    },
+    "defauts": [
+      {
+        "defaut": "SAP : doublons supprimés",
+        "injectes": 1020,
+        "traites": 1020
+      },
+      {
+        "defaut": "SAP : grammes saisis en kg (inclut les grammes à unité vide)",
+        "injectes": 1166,
+        "traites": 1334
+      },
+      {
+        "defaut": "SAP : poids manquants (+ imputés par médiane)",
+        "injectes": 1542,
+        "traites": 1539
+      },
+      {
+        "defaut": "SAP : poids nuls ou négatifs",
+        "injectes": 129,
+        "traites": 132
+      },
+      {
+        "defaut": "Scans : doubles flashages",
+        "injectes": 10611,
+        "traites": 10539
+      },
+      {
+        "defaut": "Scans : GPS inversés",
+        "injectes": 6871,
+        "traites": 7048
+      },
+      {
+        "defaut": "Scans : GPS à zéro",
+        "injectes": 3531,
+        "traites": 3634
+      },
+      {
+        "defaut": "Scans : orphelins",
+        "injectes": 300,
+        "traites": 300
+      },
+      {
+        "defaut": "Scans : transporteur tronqué",
+        "injectes": 7607,
+        "traites": 7838
+      },
+      {
+        "defaut": "Scans : horloge décalée",
+        "injectes": 1402,
+        "traites": 1464
+      },
+      {
+        "defaut": "Sites : coordonnées manquantes",
+        "injectes": 14,
+        "traites": 14
+      }
+    ]
+  },
+  "colis": 60000,
+  "etapes_transport": 263000,
+  "emission_totale_t": 49.7
+}

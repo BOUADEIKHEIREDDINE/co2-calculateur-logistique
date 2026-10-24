@@ -1,0 +1,130 @@
+﻿site_code;libelle;type_site;ville;pays;lat;lon
+ENT-CDG;Roissy CDG fret;ENTREE;Roissy-en-France;FR;49,012798;2,550000
+ENT-LEH;Port du Havre;ENTREE;Le Havre;FR;49,493460;0,107850
+ENT-FOS;Port de Marseille-Fos;ENTREE;Fos-sur-Mer;FR;43,437740;4,944570
+ENT-RTM;Port de Rotterdam;ENTREE;Rotterdam;NL;51,922500;4,479170
+ENT-LIL;Lille Lesquin international;ENTREE;Lesquin;FR;50,582320;3,119000
+ENT-STR;Strasbourg international;ENTREE;Strasbourg;FR;48,583920;7,745530
+ENT-PPG;Perpignan Saint-Charles;ENTREE;Perpignan;FR;42,697640;2,895410
+TRI-IDF;Tri Île-de-France;TRI;Gonesse;FR;48,986930;2,448920
+TRI-NAT;Hub national Orléans;HUB;Saran;FR;47,950130;1,876010
+TRI-LYS;Tri Lyon;TRI;Corbas;FR;45,667980;4,901980
+TRI-MRS;Tri Marseille;TRI;Vitrolles;FR;43,460000;5,248610
+TRI-BOD;Tri Bordeaux;TRI;Cestas;FR;44,744710;-0,681940
+TRI-TLS;Tri Toulouse;TRI;Toulouse;FR;43,604260;1,443670
+TRI-LIL;Tri Lille;TRI;Lesquin;FR;50,582320;3,119000
+TRI-NTE;Tri Nantes;TRI;Carquefou;FR;47,297220;-1,492100
+TRI-REN;Tri Rennes;TRI;Rennes;FR;48,111090;-1,674310
+TRI-STR;Tri Strasbourg;TRI;Strasbourg;FR;48,583920;7,745530
+TRI-MPL;Tri Montpellier;TRI;Montpellier;FR;43,610930;3,876350
+TRI-DIJ;Tri Dijon;TRI;Dijon;FR;;
+AG-01;Agence Bourg-en-Bresse;AGENCE;Bourg-en-Bresse;FR;46,205740;5,225800
+AG-02;Agence Saint-Quentin;AGENCE;Saint-Quentin;FR;49,848890;3,287570
+AG-03;Agence Montluçon;AGENCE;Montluçon;FR;46,340150;2,602540
+AG-04;Agence Manosque;AGENCE;Manosque;FR;;
+AG-05;Agence Gap;AGENCE;Gap;FR;44,558580;6,078680
+AG-06;Agence Nice;AGENCE;Nice;FR;43,703130;7,266080
+AG-07;Agence Annonay;AGENCE;Annonay;FR;45,239920;4,670700
+AG-08;Agence Charleville-Mézières;AGENCE;Charleville-Mézières;FR;49,768500;4,724870
+AG-09;Agence Pamiers;AGENCE;Pamiers;FR;43,116500;1,610790
+AG-10;Agence Troyes;AGENCE;Troyes;FR;48,300730;4,085240
+AG-11;Agence Narbonne;AGENCE;Narbonne;FR;43,183960;3,001410
+AG-12;Agence Rodez;AGENCE;Rodez;FR;44,352580;2,573380
+AG-13;Agence Marseille;AGENCE;Marseille;FR;;
+AG-14;Agence Caen;AGENCE;Caen;FR;;
+AG-15;Agence Aurillac;AGENCE;Aurillac;FR;44,925390;2,439830
+AG-16;Agence Angoulême;AGENCE;Angoulême;FR;45,649970;0,153450
+AG-17;Agence La Rochelle;AGENCE;La Rochelle;FR;46,163080;-1,152220
+AG-18;Agence Bourges;AGENCE;Bourges;FR;47,083330;2,400000
+AG-19;Agence Brive-la-Gaillarde;AGENCE;Brive-la-Gaillarde;FR;45,158900;1,533260
+AG-21;Agence Dijon;AGENCE;Dijon;FR;47,313440;5,013910
+AG-22;Agence Saint-Brieuc;AGENCE;Saint-Brieuc;FR;;
+AG-23;Agence Guéret;AGENCE;Guéret;FR;46,171850;1,871660
+AG-24;Agence Périgueux;AGENCE;Périgueux;FR;;
+AG-25;Agence Besançon;AGENCE;Besançon;FR;47,248780;6,018150
+AG-26;Agence Valence;AGENCE;Valence;FR;;
+AG-27;Agence Évreux;AGENCE;Évreux;FR;49,024140;1,150820
+AG-28;Agence Chartres;AGENCE;Chartres;FR;48,446850;1,489250
+AG-29;Agence Brest;AGENCE;Brest;FR;48,390290;-4,486280
+AG-2A;Agence Ajaccio;AGENCE;Ajaccio;FR;41,918860;8,738120
+AG-2B;Agence Bastia;AGENCE;Bastia;FR;42,702190;9,451230
+AG-30;Agence Nîmes;AGENCE;Nîmes;FR;43,836650;4,357880
+AG-31;Agence Toulouse;AGENCE;Toulouse;FR;43,604260;1,443670
+AG-32;Agence Auch;AGENCE;Auch;FR;43,645610;0,588560
+AG-33;Agence Bordeaux;AGENCE;Bordeaux;FR;44,841240;-0,580460
+AG-34;Agence Montpellier;AGENCE;Montpellier;FR;43,610930;3,876350
+AG-35;Agence Rennes;AGENCE;Rennes;FR;48,111090;-1,674310
+AG-36;Agence Châteauroux;AGENCE;Châteauroux;FR;46,812480;1,693620
+AG-37;Agence Tours;AGENCE;Tours;FR;47,394840;0,703980
+AG-38;Agence Grenoble;AGENCE;Grenoble;FR;45,178690;5,714790
+AG-39;Agence Dole;AGENCE;Dole;FR;47,092250;5,489660
+AG-40;Agence Mont-de-Marsan;AGENCE;Mont-de-Marsan;FR;43,890220;-0,497130
+AG-41;Agence Blois;AGENCE;Blois;FR;47,594320;1,329120
+AG-42;Agence Saint-Étienne;AGENCE;Saint-Étienne;FR;45,433890;4,390000
+AG-43;Agence Le Puy-en-Velay;AGENCE;Le Puy-en-Velay;FR;45,043660;3,885230
+AG-44;Agence Nantes;AGENCE;Nantes;FR;47,217250;-1,553360
+AG-45;Agence Orléans;AGENCE;Orléans;FR;47,902480;1,904070
+AG-46;Agence Cahors;AGENCE;Cahors;FR;44,449100;1,436630
+AG-47;Agence Agen;AGENCE;Agen;FR;44,201990;0,620550
+AG-48;Agence Mende;AGENCE;Mende;FR;44,521610;3,499780
+AG-49;Agence Angers;AGENCE;Angers;FR;47,471560;-0,552020
+AG-50;Agence Cherbourg;AGENCE;Cherbourg;FR;49,639840;-1,616360
+AG-51;Agence Reims;AGENCE;Reims;FR;49,265260;4,028530
+AG-52;Agence Saint-Dizier;AGENCE;Saint-Dizier;FR;48,637730;4,948920
+AG-53;Agence Laval;AGENCE;Laval;FR;;
+AG-54;Agence Nancy;AGENCE;Nancy;FR;;
+AG-55;Agence Verdun;AGENCE;Verdun;FR;49,159640;5,382900
+AG-56;Agence Lorient;AGENCE;Lorient;FR;47,748170;-3,371770
+AG-57;Agence Metz;AGENCE;Metz;FR;49,119110;6,172690
+AG-58;Agence Nevers;AGENCE;Nevers;FR;46,989560;3,159000
+AG-59;Agence Lille;AGENCE;Lille;FR;;
+AG-60;Agence Beauvais;AGENCE;Beauvais;FR;49,433330;2,083330
+AG-61;Agence Alençon;AGENCE;Alençon;FR;48,434760;0,093110
+AG-62;Agence Calais;AGENCE;Calais;FR;;
+AG-63;Agence Clermont-Ferrand;AGENCE;Clermont-Ferrand;FR;45,779690;3,086820
+AG-64;Agence Pau;AGENCE;Pau;FR;43,311170;-0,355830
+AG-65;Agence Tarbes;AGENCE;Tarbes;FR;43,234070;0,071390
+AG-66;Agence Perpignan;AGENCE;Perpignan;FR;42,697640;2,895410
+AG-67;Agence Strasbourg;AGENCE;Strasbourg;FR;48,583920;7,745530
+AG-68;Agence Mulhouse;AGENCE;Mulhouse;FR;;
+AG-69;Agence Lyon;AGENCE;Lyon;FR;45,749060;4,847890
+AG-70;Agence Vesoul;AGENCE;Vesoul;FR;47,626040;6,142510
+AG-71;Agence Chalon-sur-Saône;AGENCE;Chalon-sur-Saône;FR;46,781120;4,853720
+AG-72;Agence Le Mans;AGENCE;Le Mans;FR;48,002100;0,202510
+AG-73;Agence Chambéry;AGENCE;Chambéry;FR;45,566280;5,920790
+AG-74;Agence Annecy;AGENCE;Annecy;FR;45,908780;6,125650
+AG-75;Agence Paris;AGENCE;Paris;FR;48,853410;2,348800
+AG-76;Agence Le Havre;AGENCE;Le Havre;FR;49,493460;0,107850
+AG-77;Agence Meaux;AGENCE;Meaux;FR;48,960140;2,878850
+AG-78;Agence Saint-Quentin-en-Yvelines;AGENCE;Saint-Quentin-en-Yvelines;FR;48,771860;2,018910
+AG-79;Agence Niort;AGENCE;Niort;FR;;
+AG-80;Agence Amiens;AGENCE;Amiens;FR;49,900000;2,300000
+AG-81;Agence Albi;AGENCE;Albi;FR;43,929800;2,148000
+AG-82;Agence Montauban;AGENCE;Montauban;FR;44,017590;1,354200
+AG-83;Agence Toulon;AGENCE;Toulon;FR;43,124420;5,928360
+AG-84;Agence Avignon;AGENCE;Avignon;FR;43,948340;4,808920
+AG-85;Agence La Roche-sur-Yon;AGENCE;La Roche-sur-Yon;FR;46,669740;-1,427570
+AG-86;Agence Poitiers;AGENCE;Poitiers;FR;46,582610;0,343480
+AG-87;Agence Limoges;AGENCE;Limoges;FR;45,833620;1,247590
+AG-88;Agence Épinal;AGENCE;Épinal;FR;48,183240;6,453040
+AG-89;Agence Auxerre;AGENCE;Auxerre;FR;47,799600;3,570330
+AG-90;Agence Belfort;AGENCE;Belfort;FR;47,642180;6,853850
+AG-91;Agence Évry;AGENCE;Évry;FR;48,632800;2,440490
+AG-92;Agence Boulogne-Billancourt;AGENCE;Boulogne-Billancourt;FR;;
+AG-93;Agence Montreuil;AGENCE;Montreuil;FR;48,864150;2,443220
+AG-94;Agence Créteil;AGENCE;Créteil;FR;48,792660;2,465690
+AG-95;Agence Cergy-Pontoise;AGENCE;Cergy-Pontoise;FR;49,038940;2,078050
+WH-AMA1;Entrepôt Amazon Saran;ENTREPOT_CLIENT;Saran;FR;47,950130;1,876010
+WH-AMA2;Entrepôt Amazon Brétigny-sur-Orge;ENTREPOT_CLIENT;Brétigny-sur-Orge;FR;48,611350;2,305930
+WH-AMA3;Entrepôt Amazon Montélimar;ENTREPOT_CLIENT;Montélimar;FR;44,554680;4,754690
+WH-AMA4;Entrepôt Amazon Douai;ENTREPOT_CLIENT;Douai;FR;50,370690;3,079220
+WH-AMA5;Entrepôt Amazon Amiens;ENTREPOT_CLIENT;Amiens;FR;49,900000;2,300000
+WH-CDI1;Entrepôt Cdiscount Cestas;ENTREPOT_CLIENT;Cestas;FR;44,744710;-0,681940
+WH-CDI2;Entrepôt Cdiscount Saint-Priest;ENTREPOT_CLIENT;Saint-Priest;FR;45,696510;4,943850
+WH-ZAL1;Entrepôt Zalando Moissy-Cramayel;ENTREPOT_CLIENT;Moissy-Cramayel;FR;48,626050;2,601250
+WH-DEC1;Entrepôt Decathlon Lille;ENTREPOT_CLIENT;Lille;FR;50,633910;3,055120
+WH-DEC2;Entrepôt Decathlon Torcy;ENTREPOT_CLIENT;Torcy;FR;48,850640;2,650780
+WH-DEC3;Entrepôt Decathlon Rognac;ENTREPOT_CLIENT;Rognac;FR;43,487610;5,233870
+WH-BAC1;Entrepôt Back Market Rungis;ENTREPOT_CLIENT;Rungis;FR;48,746070;2,352750
+WH-LER1;Entrepôt Leroy Merlin Valence;ENTREPOT_CLIENT;Valence;FR;44,925600;4,909560
+WH-LER2;Entrepôt Leroy Merlin Rambouillet;ENTREPOT_CLIENT;Rambouillet;FR;48,643740;1,829920

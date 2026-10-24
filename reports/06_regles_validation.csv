@@ -1,0 +1,14 @@
+regle,description,anomalies,controles,statut
+unicite_tracking,un numéro de suivi par colis,0,60000,OK
+poids_borne,poids dans ]0 ; 70] kg,0,60000,OK
+volume_borne,"volume < 0,5 m3 quand il est connu",1,52767,ALERTE
+inegalite_triangulaire,distance parcourue >= distance à vol d'oiseau origine-destination,0,60000,OK
+distance_positive,aucune étape de distance négative ou > 25 000 km,0,263000,OK
+total_egal_sous_totaux,émission du colis = somme des émissions de ses étapes,0,60000,OK
+facteur_reference,chaque étape a un facteur du référentiel,0,263000,OK
+facteurs_plausibles,facteurs ADEME dans les bornes attendues par mode,0,22,OK
+vitesse_plausible,vitesse moyenne entre deux scans compatible avec le mode,64,151346,ALERTE
+date_dans_periode,commande dans la période étudiée,0,60000,OK
+delai_plausible,délai de livraison entre 0 et 60 jours,0,58998,OK
+emission_positive,émission strictement positive,0,60000,OK
+geocodage_complet,origine et destination géolocalisées,0,60000,OK

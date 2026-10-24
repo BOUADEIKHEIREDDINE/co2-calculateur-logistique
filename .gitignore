@@ -1,0 +1,14 @@
+# support de cours du professeur, non redistribué
+cour.pdf
+# couches intermédiaires régénérées par run_pipeline.py
+data/raw/
+data/raw_clean/*
+!data/raw_clean/sites.parquet
+data/enriched/*
+!data/enriched/topologie_apprise.csv
+presentation/*_rogne.png
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
